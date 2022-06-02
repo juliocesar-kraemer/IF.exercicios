@@ -23,7 +23,7 @@ if(n1 > 30){
     if(j1 == 1){
         if(j2 > 10){
             if(j3 == 20){
-              alert("os numeros estão corretos");
+              alert("Os numeros estão corretos,por isso entrou no alert");
             }
         }
      
