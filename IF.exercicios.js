@@ -29,3 +29,17 @@ if(n1 > 30){
      
     }
     /*O alert foi acionado pois a condição é verdadeira.*/ 
+
+    alert("outro código")
+
+    n1 = 100;
+    n2 = 200;
+    n3 = 300;
+    if(n3 == n1 + n2){
+        if(n3 > n2 + 10){
+        alert("os numeros estao corretos");
+        }else{
+            alert("só a primeira condição funcionou")
+        }
+    }
+    /*O primeiro alert foi acionado, pois (n3==n1+n2), e (n3 > n1+10).*/
